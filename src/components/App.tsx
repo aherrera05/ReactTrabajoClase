@@ -3,7 +3,7 @@ import { Home } from './Home';
 import { Switch,Route } from 'react-router';
 import { About } from './About';
 import { MyTodoList } from './MyToDoList';
-import { NotFound } from './404';
+import  NotFound from './404';
 import { Nav } from './Nav';
 const App: React.FC = () => {
   
