@@ -23,6 +23,14 @@ code {
   background: rgba(29, 5, 53, 0.523);;
 }
 
+.header a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.header a:hover{
+  color:rgb(235, 217, 140)
+}
 .container {
   width: 400px;
   padding:10px 15px;

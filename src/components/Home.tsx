@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Calculator } from './Calculator/Calculadora';
+import { Calculator } from './Calculator/Calculadora'
 import { Counter } from './Counter';
 // import { Container } from './Container';
 // import { HelloClass } from './HelloClass';
@@ -25,7 +25,7 @@ export const Home:React.FC = () => {
   const handleUser = (name: string) => console.log('Click en usuario', name);
 
   return <React.Fragment>
-    <Nav/>
+    
     <div className='container'>
     <h2>Lista de Usuarios</h2>
     {users.map((user) => <Hello key={user.email} name={user.name} age={user.age} email={user.email}  handleClick={(name: string) => handleUser(name)}/>)}
